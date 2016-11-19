@@ -15,11 +15,11 @@
 
     <title>
         
-            Contributing &middot; Data Linkage Repository
+            Privacy-preserving record linkage &middot; Data Linkage Repository
         
     </title>
 
-    <link rel="canonical" href="/previews/PR-14/contributing">
+    <link rel="canonical" href="/previews/PR-14/task/PPRL">
 
     <!-- import jQuery -->
     <script
@@ -107,10 +107,9 @@
                         
                     
                         
-                            <li class="active">
+                            <li>
                                 <a href="/previews/PR-14/contributing">
                                     Contributing
-                                    <span class="sr-only">(current)</span>
                                 </a>
                             </li>
                         
@@ -122,9 +121,9 @@
                             prose.io is a service which may be better than GitHub's editor for this task.
                             We need to look into it some more before switching to it though.
                             Here what the link should look like.
-                            <a href="http://prose.io/#dlrep/dlrep/edit/master/_custom/contributing.md">
+                            <a href="http://prose.io/#dlrep/dlrep/edit/master/_tasks/PPRL.md">
                         -->
-                        <a href="https://github.com/dlrep/dlrep/edit/master/_custom/contributing.md">
+                        <a href="https://github.com/dlrep/dlrep/edit/master/_tasks/PPRL.md">
                             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
                             Edit this page
                         </a>
@@ -136,39 +135,37 @@
     </nav>
 
     <div class="container">
-        <center><b>Note: This website should be regarded as work-in-progress at the moment.</b></center>
-<br><br><br>
+        <h2> Task: Privacy-preserving record linkage </h2>
 
-<p>The website is intended to be maintained by the community.
-We welcome contributions via <a href="http://www.github.com/dlrep/dlrep">GitHub</a>.</p>
+<hr>
 
-<p>We will write a contributor’s guideline and put it in here.</p>
+<p>
+    Tags:
+    
+</p>
 
-<p>Maybe we can do that by describing how to do certain things:</p>
+<hr>
 
-<h2 id="working-with-github">Working with GitHub</h2>
+<p>Privacy-preserving record linkage (PPRL) is the process of identifying and matching records that represent the
+same entity across databases held by different organizations without revealing any sensitive information
+about these entities. At the end of the PPRL process only limited information about record pairs that have
+been classified as matches (i.e .refer to the same entity) will be revealed either to the two databases
+involved in a linkage, or to an external party.</p>
 
-<ul>
-  <li>Make an account,</li>
-  <li>fork,</li>
-  <li>branch,</li>
-  <li>commit, commit commit,</li>
-  <li>push,</li>
-  <li>make pull request.</li>
-</ul>
+<p>Besides the two main challenges of record linkage, namely linkage quality and scalability of linking increasingly
+large databases, priavacy poses another major challenge that needs to be adressed in many real-world record
+linkage applications. PPRL methods need  to be secure to a variety of attacks, including dictionary, frequency or
+more sophisticated crypt-analysis attacks.</p>
 
-<p>Then somebody will merge your changes.</p>
+<p>Further reading:</p>
 
-<p>You (or a maintainer) may need to make some more commits &amp; pushes before the merge.</p>
+<p><a href="http://www.sciencedirect.com/science/article/pii/S0306437912001470">A taxonomy of privacy-preserving record linkage techniques, D Vatsalan, P Christen and VS Verykios, 2013</a></p>
 
-<p>We will setup a build bot, so the changes can be previewed before a merge.</p>
+<p><a href="http://onlinelibrary.wiley.com/doi/10.1002/widm.1101/full">Privacy-preserving record linkage, P Christen and VS Verykios, 2016</a></p>
 
-<h2 id="adding-a-new-data-set">Adding a new data set</h2>
+<p><a href="http://repository.cmu.edu/jpc/vol6/iss1/3/">An Evaluation Framework for Privacy-Preserving Record Linkage, D Vatsalan, P Christen, CM O’Keefe and VS Verykios</a></p>
 
-<h2 id="editing-existing-data-sets">Editing existing data sets</h2>
-
-<h2 id="etc">Etc…</h2>
-
+<p><a href="http://onlinelibrary.wiley.com/doi/10.1002/9781119072454.ch9/summary">Privacy-preserving record linkage, R Schnell, 2016</a></p>
 
 
     </div>
