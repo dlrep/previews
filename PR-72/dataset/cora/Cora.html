@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!--
+        This disables zooming on mobile. Replace with the following to enable it again.
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>
+        
+            Cora &middot; Data Linkage Repository
+        
+    </title>
+
+    <link rel="canonical" href="/previews/PR-72/dataset/cora/Cora">
+
+    <!-- import jQuery -->
+    <script
+        src="//code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+    <!-- import bootstrap -->
+    <link
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- import dataTables -->
+    <link
+        href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"
+        rel="stylesheet">
+    <script
+        src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+    <!-- enable dataTables -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.data-table').DataTable({
+                paging: false,
+                info: false,
+            });
+        });
+    </script>
+
+    <!-- empty favicon -->
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
+
+    
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <!-- collapsed -->
+            <div class="navbar-header">
+                <span class="navbar-brand">Data Linkage Repository</span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dlrepl-navbar-expanded" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- expanded -->
+            <div class="collapse navbar-collapse" id="dlrep-navbar-expanded">
+                <ul class="nav navbar-nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/previews/PR-72/">
+                                    Home
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/previews/PR-72/datasets">
+                                    Data Sets
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/previews/PR-72/tasks">
+                                    Tasks
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/previews/PR-72/tags">
+                                    Tags
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/previews/PR-72/contributing">
+                                    Contributing
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="pull-right">
+                        <!--
+                            prose.io is a service which may be better than GitHub's editor for this task.
+                            We need to look into it some more before switching to it though.
+                            Here what the link should look like.
+                            <a href="http://prose.io/#dlrep/dlrep/edit/master/_datasets/cora/Cora.md">
+                        -->
+                        <a href="https://github.com/dlrep/dlrep/edit/master/_datasets/cora/Cora.md">
+                            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                            Edit this page
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2> Data Set: Cora </h2>
+
+<hr>
+
+<p>
+    Proposed by:
+    
+        Andrew McCallum
+    
+</p>
+
+<p>
+    Added on: 20 November 2016.
+</p>
+
+
+<p>
+    Tags:
+    
+        <a href="/previews/PR-72/tag/bibliographic">bibliographic</a>,
+    
+        <a href="/previews/PR-72/tag/local">local</a>,
+    
+        <a href="/previews/PR-72/tag/public">public</a>,
+    
+        <a href="/previews/PR-72/tag/external">external</a>
+    
+</p>
+
+
+<hr>
+
+<h2 id="description">Description</h2>
+
+<p>The Cora data contains bibliographic records of machine learning papers that have been manually clustered into groups that
+refer to the same publication.</p>
+
+<p>Originally, Cora was prepared by Andrew McCallum, and his versions of this data set are available on his
+<a href="https://people.cs.umass.edu/~mccallum/data.html">Data</a> web page.
+The data is also hosted <a href="cora.csv">here</a> in the DLRep.</p>
+
+<p>Note that various versions of the Cora data set have been used by many publications in record linkage and entity resolution
+over the years.</p>
+
+<h2 id="files">Files</h2>
+
+<p><a href="./cora.csv">cora.csv</a></p>
+
+<p>The Cora versions local in <a href="http://dlrep.org">dlrep</a> is a comma separated values (CSV) file as downloaded from the
+<a href="http://secondstring.sourceforge.net/">SecondString</a> approximate string matching open source package.</p>
+
+<ul>
+  <li>Number of records: 1,295</li>
+  <li>Number of entities: 112</li>
+</ul>
+
+<p>Note the second column (field/attribute) contains the entity identifiers (publication identifiers).</p>
+
+
+
+    </div>
+
+    <br><br><hr>
+    <center>
+        <a href="https://creativecommons.org/licenses/by/4.0">
+            <img src="https://img.shields.io/badge/license-CC%20BY%204.0-brightgreen.svg"
+                 alt="License CC BY 4.0">
+        </a>
+    </center>
+    <br>
+
+</body>
+
+</html>
